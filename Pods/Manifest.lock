@@ -1,0 +1,16 @@
+PODS:
+  - SBLoan (1.1.0)
+
+DEPENDENCIES:
+  - SBLoan
+
+SPEC REPOS:
+  https://github.com/vhenriquebm/SBLoan.git:
+    - SBLoan
+
+SPEC CHECKSUMS:
+  SBLoan: 66de730d8579d676280d7f28bfdc87512ad84531
+
+PODFILE CHECKSUM: d4c5bd94fadf8f877190f07c992dfe60dbdc325a
+
+COCOAPODS: 1.15.2

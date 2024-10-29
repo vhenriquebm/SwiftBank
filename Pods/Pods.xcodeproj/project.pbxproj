@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115ED30E8092CA9BB62AB3FBFE5E6E34 /* SBLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ACE7958771B03307ED3F4020B53FC8 /* SBLoanView.swift */; };
+		7F72FD0E8ADD4FFAB0C834C4CB333E43 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4EC6B9EAB8656DFBFD04FE782A65C3 /* Color+.swift */; };
+		92294FBBDFE16B28217D7A81F19C5F15 /* Pods-SwiftBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A419EB95D02C3AFE91E909124BCB7A /* Pods-SwiftBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CFE2AA43127915B27B48054C5B01D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2ED812CE47BFA8878131F4606C1608B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C801A199636B62C8E33E23B0ED225D58 /* SBLoan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C554D01B580760332AD857B6BEDC60 /* SBLoan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1285962DC0122330E14DB919CDA4598 /* SBLoan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4022C79E0FAC8F1B7FCA10F870632768 /* SBLoan-dummy.m */; };
+		F8E9E498B42491E281BC8A33974AC542 /* Pods-SwiftBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F359A6731BBCFF381E3565A0E43DCDA5 /* Pods-SwiftBank-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		142FBB4787066BA1B9B800F4214F0D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8998B12DDC6F9BE5C76A3DBA7345B0E;
+			remoteInfo = SBLoan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130C7514D676C69D933D85D6509C1568 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
+		290E98246314971941BE1C793C1BA1C8 /* Pods-SwiftBank */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftBank"; path = Pods_SwiftBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4022C79E0FAC8F1B7FCA10F870632768 /* SBLoan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBLoan-dummy.m"; sourceTree = "<group>"; };
+		49F9E54942602B20B951EF2D3AD9B804 /* Pods-SwiftBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftBank.debug.xcconfig"; sourceTree = "<group>"; };
+		6D08236034837D61486780C7D131AC6A /* SBLoan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBLoan-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		747792890E956A33E238A5B0407D745F /* Pods-SwiftBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBank-acknowledgements.plist"; sourceTree = "<group>"; };
+		775A5C010AABF30C481FFB04CABCC4FB /* Pods-SwiftBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftBank.modulemap"; sourceTree = "<group>"; };
+		7C325762AFB178B9DED367BD839290B1 /* SBLoan */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SBLoan; path = SBLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84A419EB95D02C3AFE91E909124BCB7A /* Pods-SwiftBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftBank-umbrella.h"; sourceTree = "<group>"; };
+		9663612DDD28C2718CDB0FAAACFA0506 /* SBLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBLoan.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4543C81A531262DA1A4544D96257BA6 /* SBLoan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SBLoan.modulemap; sourceTree = "<group>"; };
+		A769EF33F30BB528569B80730E9FFECB /* SBLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBLoan.debug.xcconfig; sourceTree = "<group>"; };
+		A7804C2A2CD97975ED4309D8162512F5 /* SBLoan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SBLoan-Info.plist"; sourceTree = "<group>"; };
+		BC4EC6B9EAB8656DFBFD04FE782A65C3 /* Color+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Color+.swift"; path = "Classes/Utils/Extensions/Color+.swift"; sourceTree = "<group>"; };
+		D29EE6F3D9EE9E20B6351FE3376891FC /* Pods-SwiftBank-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftBank-Info.plist"; sourceTree = "<group>"; };
+		F0C554D01B580760332AD857B6BEDC60 /* SBLoan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBLoan-umbrella.h"; sourceTree = "<group>"; };
+		F2ACE7958771B03307ED3F4020B53FC8 /* SBLoanView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBLoanView.swift; path = Classes/SBLoanView.swift; sourceTree = "<group>"; };
+		F359A6731BBCFF381E3565A0E43DCDA5 /* Pods-SwiftBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftBank-dummy.m"; sourceTree = "<group>"; };
+		F4546C2714DFCBC61DEE2B91C8B801FF /* Pods-SwiftBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F93C13EEF6BB87CA3E41CE55BB8DD1DC /* Pods-SwiftBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftBank-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B05C85CD8A9045AF136C4D9B7880CB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ED812CE47BFA8878131F4606C1608B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24C05B53F125C37C5CFEE743AE48F61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CFE2AA43127915B27B48054C5B01D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0808EF343ED1DE295EDA484C49136B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290E98246314971941BE1C793C1BA1C8 /* Pods-SwiftBank */,
+				7C325762AFB178B9DED367BD839290B1 /* SBLoan */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F637C95D62D938924ABB5138F31212A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4543C81A531262DA1A4544D96257BA6 /* SBLoan.modulemap */,
+				4022C79E0FAC8F1B7FCA10F870632768 /* SBLoan-dummy.m */,
+				A7804C2A2CD97975ED4309D8162512F5 /* SBLoan-Info.plist */,
+				6D08236034837D61486780C7D131AC6A /* SBLoan-prefix.pch */,
+				F0C554D01B580760332AD857B6BEDC60 /* SBLoan-umbrella.h */,
+				A769EF33F30BB528569B80730E9FFECB /* SBLoan.debug.xcconfig */,
+				9663612DDD28C2718CDB0FAAACFA0506 /* SBLoan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBLoan";
+			sourceTree = "<group>";
+		};
+		2256C46660E21D7C72C8CF6CB84C094F /* Pods-SwiftBank */ = {
+			isa = PBXGroup;
+			children = (
+				775A5C010AABF30C481FFB04CABCC4FB /* Pods-SwiftBank.modulemap */,
+				F4546C2714DFCBC61DEE2B91C8B801FF /* Pods-SwiftBank-acknowledgements.markdown */,
+				747792890E956A33E238A5B0407D745F /* Pods-SwiftBank-acknowledgements.plist */,
+				F359A6731BBCFF381E3565A0E43DCDA5 /* Pods-SwiftBank-dummy.m */,
+				F93C13EEF6BB87CA3E41CE55BB8DD1DC /* Pods-SwiftBank-frameworks.sh */,
+				D29EE6F3D9EE9E20B6351FE3376891FC /* Pods-SwiftBank-Info.plist */,
+				84A419EB95D02C3AFE91E909124BCB7A /* Pods-SwiftBank-umbrella.h */,
+				49F9E54942602B20B951EF2D3AD9B804 /* Pods-SwiftBank.debug.xcconfig */,
+				130C7514D676C69D933D85D6509C1568 /* Pods-SwiftBank.release.xcconfig */,
+			);
+			name = "Pods-SwiftBank";
+			path = "Target Support Files/Pods-SwiftBank";
+			sourceTree = "<group>";
+		};
+		312363B574F125D5D180EA7674072F22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8CF4AB0399AE3267EFBCE7113E762FA /* SBLoan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C4ABCB15066A6F22ECFECE1BA285858 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2256C46660E21D7C72C8CF6CB84C094F /* Pods-SwiftBank */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8CF4AB0399AE3267EFBCE7113E762FA /* SBLoan */ = {
+			isa = PBXGroup;
+			children = (
+				BC4EC6B9EAB8656DFBFD04FE782A65C3 /* Color+.swift */,
+				F2ACE7958771B03307ED3F4020B53FC8 /* SBLoanView.swift */,
+				1F637C95D62D938924ABB5138F31212A /* Support Files */,
+			);
+			name = SBLoan;
+			path = SBLoan;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				312363B574F125D5D180EA7674072F22 /* Pods */,
+				0808EF343ED1DE295EDA484C49136B21 /* Products */,
+				5C4ABCB15066A6F22ECFECE1BA285858 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EAC5CF8B61F600071B8C898FA20028F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92294FBBDFE16B28217D7A81F19C5F15 /* Pods-SwiftBank-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F7B8B9AFA36EA88ABE2BEC034987B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C801A199636B62C8E33E23B0ED225D58 /* SBLoan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA91B0A4D54E3F21718F63061B6F1563 /* Pods-SwiftBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F033ED77A625A312C5F81CE5707F5C62 /* Build configuration list for PBXNativeTarget "Pods-SwiftBank" */;
+			buildPhases = (
+				3EAC5CF8B61F600071B8C898FA20028F /* Headers */,
+				57E6FE8A1D210BA4DD788F7D759D6528 /* Sources */,
+				1B05C85CD8A9045AF136C4D9B7880CB2 /* Frameworks */,
+				78F995F0F4DCC3842A676E3C90A579BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD33EC6ACD36BED8FF0BBD07CA508758 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftBank";
+			productName = Pods_SwiftBank;
+			productReference = 290E98246314971941BE1C793C1BA1C8 /* Pods-SwiftBank */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8998B12DDC6F9BE5C76A3DBA7345B0E /* SBLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5A70A0150EB8F364FB8B8E1ECC4444E /* Build configuration list for PBXNativeTarget "SBLoan" */;
+			buildPhases = (
+				E48F7B8B9AFA36EA88ABE2BEC034987B /* Headers */,
+				56FBCFE4A204DCD125D6C8F23984D4C2 /* Sources */,
+				D24C05B53F125C37C5CFEE743AE48F61 /* Frameworks */,
+				BC3F75F8E08F06E6D9035965D965D274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBLoan;
+			productName = SBLoan;
+			productReference = 7C325762AFB178B9DED367BD839290B1 /* SBLoan */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0808EF343ED1DE295EDA484C49136B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA91B0A4D54E3F21718F63061B6F1563 /* Pods-SwiftBank */,
+				E8998B12DDC6F9BE5C76A3DBA7345B0E /* SBLoan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78F995F0F4DCC3842A676E3C90A579BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3F75F8E08F06E6D9035965D965D274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56FBCFE4A204DCD125D6C8F23984D4C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F72FD0E8ADD4FFAB0C834C4CB333E43 /* Color+.swift in Sources */,
+				E1285962DC0122330E14DB919CDA4598 /* SBLoan-dummy.m in Sources */,
+				115ED30E8092CA9BB62AB3FBFE5E6E34 /* SBLoanView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E6FE8A1D210BA4DD788F7D759D6528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E9E498B42491E281BC8A33974AC542 /* Pods-SwiftBank-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD33EC6ACD36BED8FF0BBD07CA508758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBLoan;
+			target = E8998B12DDC6F9BE5C76A3DBA7345B0E /* SBLoan */;
+			targetProxy = 142FBB4787066BA1B9B800F4214F0D80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0921D547A6D9FB6FEDC27D83D9049C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130C7514D676C69D933D85D6509C1568 /* Pods-SwiftBank.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C9F54F646D800C9B8CEED64553C7157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9663612DDD28C2718CDB0FAAACFA0506 /* SBLoan.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
+				PRODUCT_MODULE_NAME = SBLoan;
+				PRODUCT_NAME = SBLoan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C3FBC45C4966EFE20583918767EFBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A31262AAE047A6D0DEF7E3E565FCA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F9E54942602B20B951EF2D3AD9B804 /* Pods-SwiftBank.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C254B6FFA2911C09A0174822A132D88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A769EF33F30BB528569B80730E9FFECB /* SBLoan.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SBLoan/SBLoan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SBLoan/SBLoan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SBLoan/SBLoan.modulemap";
+				PRODUCT_MODULE_NAME = SBLoan;
+				PRODUCT_NAME = SBLoan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF0A36149038A192FFD678E1D4A40D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C3FBC45C4966EFE20583918767EFBE2 /* Debug */,
+				FF0A36149038A192FFD678E1D4A40D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5A70A0150EB8F364FB8B8E1ECC4444E /* Build configuration list for PBXNativeTarget "SBLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C254B6FFA2911C09A0174822A132D88F /* Debug */,
+				6C9F54F646D800C9B8CEED64553C7157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F033ED77A625A312C5F81CE5707F5C62 /* Build configuration list for PBXNativeTarget "Pods-SwiftBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A31262AAE047A6D0DEF7E3E565FCA48 /* Debug */,
+				0921D547A6D9FB6FEDC27D83D9049C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
